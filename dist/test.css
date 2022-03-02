@@ -1,0 +1,25 @@
+.cart-content {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  padding: 50px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+#close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  color: red;
+  z-index: 99;
+}
+
+.big {
+  font-size: 2rem;
+}
